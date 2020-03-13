@@ -1,3 +1,7 @@
+// Writen by Steven Little
+// stevenmlittle@knights.ucf.edu
+// Binary clock that uses 3 shift registers and a NodeMCU with ESP8288
+
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #include <time.h>
