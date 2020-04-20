@@ -64,7 +64,7 @@ void setup()
    ArduinoOTA.setHostname("Clock-ESP8266");
 
   // No authentication by default
-  ArduinoOTA.setPassword("notnow");
+  ArduinoOTA.setPassword("password");
 
   ArduinoOTA.onStart([]() 
   {
